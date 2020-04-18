@@ -1,0 +1,180 @@
+body {
+  margin: 0%;
+  height: 100%;
+  width: 100%;
+  font-family: "Open sans", sans-serif;
+  line-height: 1.5;
+}
+
+.canva {
+  position: fixed;
+  z-index: -1;
+}
+
+/* .particles-js-canvas-el {
+  height: 1720px;
+  width: 1080px;
+} */
+
+#particles-js {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #bebebe;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  /* overflow: hidden; */
+}
+
+.root {
+  /* position: absolute;
+  z-index: -1; */
+  margin: 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form {
+  border-radius: 15px 15px 15px 0px;
+  /* background-color: #9b0000; */
+  /* background-image: linear-gradient(-90deg, #3c1e00, #9b0000); */
+  padding: 25px;
+
+  /* background-image: url(./images/messi.jpg);
+
+  background-size: 30%;
+  background-position: left -3% top -2%;
+  background-repeat: no-repeat;
+  background-attachment: relative; */
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  margin: 0;
+  color: #3c1e00;
+  font-size: 25px;
+}
+
+.containers {
+  padding: 10px;
+  padding-left: 0;
+  display: block;
+  width: 358px;
+  height: 76px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  width: 368px;
+  height: 24px;
+  font-size: 0.78rem;
+  margin: 0 0 4px;
+  color: #3c1e00;
+}
+
+.containers p {
+  /* word-wrap: break-word; */
+  width: 346px;
+  height: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  border: 0px solid #e2e8f0;
+  background-color: #9b0000;
+  border-radius: 0px 15px 15px 15px;
+  padding: 12px 8px 12px 12px;
+  color: #ffffff;
+  /* margin-top: 10px;
+  margin-bottom: 20px; */
+}
+
+.quote {
+  height: auto;
+}
+.quote label {
+  margin-top: 5px;
+}
+.quote p {
+  padding-top: 5px;
+  height: auto;
+}
+
+.picture {
+  height: 490.656px;
+  margin-bottom: 10px;
+}
+
+.picture label {
+  margin-bottom: 6px;
+}
+img {
+  width: 100%;
+  height: 490.656px;
+  border-radius: 15px 15px 15px 0px;
+}
+
+footer {
+  /* text-align: center; */
+  margin-bottom: 10px;
+  flex-direction: column;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+
+  text-align: center;
+}
+.dgn {
+  /* background-color: #bebebe; */
+  color: #3c1e00;
+  width: 368px;
+  border-radius: 0px 15px 15px 15px;
+}
+
+.foot {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+.ctn {
+  height: 30px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ctn p {
+  font-size: 14px;
+}
+
+i {
+  padding-right: 5px;
+}
+
+h2 {
+  /* color: black; */
+  margin-bottom: 0;
+  font-weight: 500;
+  color: #3c1e00;
+  font-size: 20px;
+}
+
+/* background-image: url(./images/artist.png), url(./images/messi.jpg),
+url(./images/saitama.png), url(./images/programmer.png);
+
+background-size: 30%, 17%, 17%, 17%;
+background-position: left -1% top -15%, right -7.5% top -1%,
+left -5% bottom -10%, right -5% bottom -5%;
+background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+background-attachment: fixed; */
